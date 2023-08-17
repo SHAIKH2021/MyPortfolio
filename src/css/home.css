@@ -127,7 +127,16 @@
 }
 @media screen and (max-width:1024px){
     .home__social-link{
-        font-size: 1.125rem;
+        font-size: 3.5rem;
     }
-    
+    .home__img{
+        margin-bottom: 5.5rem;
+        width: 15rem;
+    }
+    .home__name{
+        font-size: 5rem;
+    }
+    .home__education{
+        font-size: 3rem;
+    }
   }

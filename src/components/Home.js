@@ -11,7 +11,6 @@ import ScrollDown from './ScrollDown';
                 <h1 className="home__name">Sahil Shaikh</h1>
                 <span className="home__education">I'm full stack developer</span>
                 <HeaderSocials/>
-                <a href="#contact" className="btn">Hire Me</a>
                 <ScrollDown/>
             </div>
         </section>

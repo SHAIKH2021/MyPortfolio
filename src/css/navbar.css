@@ -56,11 +56,15 @@
     }
     .nav__toggle{
         display: flex;
+        font-size: 3.4rem;
+        height: 15rem;
+        width: 6rem;
     }
     .nav__toggle-open{
         left: 140px;
     }
     .show-menu{
         left: 0;
+        font-size: 4rem;
     }
   }
