@@ -15,10 +15,10 @@ import Menu from './Menu';
 
         <div className="work__filters">
             <span className="work__item" onClick={()=>setItem(Menu)}>Everything</span>
+            <span className="work__item"  onClick={()=>filterItem("Gaming")}>Gaming</span>
             <span className="work__item"  onClick={()=>filterItem("Creative")}>Creative</span>
-            <span className="work__item"  onClick={()=>filterItem("Art")}>Art</span>
-            <span className="work__item"  onClick={()=>filterItem("Design")}>Design</span>
-            <span className="work__item"  onClick={()=>filterItem("Branding")}>Branding</span>
+            {/* <span className="work__item"  onClick={()=>filterItem("Design")}>Design</span>
+            <span className="work__item"  onClick={()=>filterItem("Branding")}>Branding</span> */}
         </div>
 
         <div className="work__container grid">
@@ -32,8 +32,8 @@ import Menu from './Menu';
 
                         <span className="work__category">{val.category}</span>
                         <h3 className="work__title">{val.title}</h3>
-                        <a href="#" className="work__button">
-                            <i className="icon-link work__button-icon"></i>
+                        <a href={val.link} className="work__button">
+                            <i className="icon-link work__button-icon">visit</i>
                         </a>
                     </div>
                 )

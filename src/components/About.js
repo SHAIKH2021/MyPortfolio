@@ -1,27 +1,28 @@
 import React from 'react';
 import '../css/about.css';
-import Image from '../assets/avatar-2.svg';
-import AboutBox from './AboutBox';
+// import me from '../assets/MY FAV.jpeg';
+// import AboutBox from './AboutBox';
 const About=()=>{
     return(
         <section className="about container section" id='about'>
             <h2 className="section__title">About Me</h2>
 
             <div className="about__container grid">
-                <img src={Image} alt="" className="about__img" />
 
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ad molestiae ratione veritatis cum, quibusdam eum explicabo.
-                        </p>
-                        <a href="" className="btn">Download CV</a>
+                        I am a full-stack developer with two years of experience in front-end and back-end development of quality e-commerce web applications and products.
+                        I am proficient in React JS, Redux, Javascript, Typescript, Bootstrap, HTML, and CSS and have experience working with .Net core, ASP.Net MVC and SQL. 
+                        My expertise in these technologies enables me to deliver efficient and high-quality web solutions.                        
+                       </p>
+                        <a href="https://drive.google.com/file/d/198Q6Bj-SgeeZUoaqaVVjdmdbd-3_ZYgb/view?usp=sharing" className="btn">Download CV</a>
                     </div>
                     <div className="about__skills grid">
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className="skills__name">BE</h3>
-                                <span className="skills__number">85%</span>
+                                <h3 className="skills__name">UI/UX Development</h3>
+                                <span className="skills__number">8/10</span>
                             </div>
                             <div className="skills__bar">
                                 <span className="skills__percentage development"></span>
@@ -30,8 +31,8 @@ const About=()=>{
 
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className="skills__name">HSC</h3>
-                                <span className="skills__number">67%</span>
+                                <h3 className="skills__name">Backend Development</h3>
+                                <span className="skills__number">7/10</span>
                             </div>
                             <div className="skills__bar">
                                 <span className="skills__percentage ui__design"></span>
@@ -40,8 +41,8 @@ const About=()=>{
 
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className="skills__name">SSC</h3>
-                                <span className="skills__number">82%</span>
+                                <h3 className="skills__name">SQL</h3>
+                                <span className="skills__number">8/10</span>
                             </div>
                             <div className="skills__bar">
                                 <span className="skills__percentage photography"></span>
@@ -50,8 +51,6 @@ const About=()=>{
                     </div>
                 </div>
             </div>
-
-            <AboutBox/>
         </section>
     );
  }

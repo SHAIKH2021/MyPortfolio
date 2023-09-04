@@ -8,20 +8,20 @@ import Image3 from '../assets/avatar-3.svg';
         {
             id:1,
             image:Image1,
-            title:"UI/UX design",
-            description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ad molestiae ratione veritatis cum, quibusdam eum explicabo.",
+            title:"UI/UX Development",
+            description:"- JavaScript, ReactJs, Redux, HTML, CSS, Bootstrap ",
         },
         {
             id:2,
             image:Image2,
-            title:"web development",
-            description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ad molestiae ratione veritatis cum, quibusdam eum explicabo.",
+            title:"Backend Development",
+            description:"- .Net core, ASP.Net MVC, C#, C++",
         },
         {
             id:3,
             image:Image3,
-            title:"Photography",
-            description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ad molestiae ratione veritatis cum, quibusdam eum explicabo.",
+            title:"Database & Other",
+            description:"- SQL, MySQL, git, github, Azure",
         },
     ];
     return(

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/home.css';
-import me from '../assets/avatar-1.svg';
+import me from '../assets/MY FAV.jpeg';
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
  const Home=()=>{
