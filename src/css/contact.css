@@ -79,6 +79,9 @@ button:disabled:active{
     .contact__form-group{
         grid-template-columns: 1fr;
     }
+    .input,input::placeholder,textarea{
+        font-size: var(--h1-font-size);
+    }
 }
 @media screen and (max-width:768px){
     .contact__container{

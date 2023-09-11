@@ -16,7 +16,7 @@ const About=()=>{
                         I am proficient in React JS, Redux, Javascript, Typescript, Bootstrap, HTML, and CSS and have experience working with .Net core, ASP.Net MVC and SQL. 
                         My expertise in these technologies enables me to deliver efficient and high-quality web solutions.                        
                        </p>
-                        <a href="https://drive.google.com/file/d/198Q6Bj-SgeeZUoaqaVVjdmdbd-3_ZYgb/view?usp=sharing" className="btn">Download CV</a>
+                        <a href="https://drive.google.com/file/d/1M_1GEJva5ZUDwGZ6v-ZiytFqp3eImUvq/view?usp=sharing" className="btn">Download CV</a>
                     </div>
                     <div className="about__skills grid">
                         <div className="skills__data">

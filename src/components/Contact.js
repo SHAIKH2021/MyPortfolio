@@ -74,11 +74,11 @@ const Conatct=()=>{
   const inputClassesMessage=inputMessageError?'contact__form-error border_red add_margin-top':'contact__form-input';
   return(
         <section className="contact container section" id='contact'>
-            <h2 className="section__title">Get in Touch</h2>
+            <h2 className="section__title">Connect with Me</h2>
 
             <div className="contact__container grid">
                 <div className="contact__info">
-                    <h3 className="contact__title">Let's talk about everything!</h3>
+                    <h3 className="contact__title">Let's get in touch!</h3>
                     <p className="contact__details">send me an email.</p>
                 </div>
 
